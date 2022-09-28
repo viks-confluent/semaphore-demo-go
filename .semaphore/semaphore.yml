@@ -13,8 +13,7 @@ name: Semaphore Go CI example
 # and https://docs.semaphoreci.com/article/32-ubuntu-1804-image
 agent:
   machine:
-    type: e1-standard-2
-    os_image: ubuntu2004
+    type: s1-test-ci-ubuntu20-04-amd64-1
 
 # Blocks are the heart of a pipeline and are executed sequentially.
 # Each block has a task that defines one or more jobs. Jobs define the
